@@ -9,7 +9,7 @@
 
 ## Style
 
-Based on provided principles, and current businesss goals (number of users, functionality current and desired) and constraints the primary implementation style of architecture is **event-driven microservices**.
+Based on provided principles, and current [businesss goals](https://github.com/mu2712/archkatas/blob/development/Requirements/Functional.md) (number of users, functionality current and desired) and constraints the primary implementation style of architecture is **event-driven microservices**.
 
 The high level design is as follow:
 
