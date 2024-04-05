@@ -21,3 +21,6 @@ The high level design is as follow:
    The architecture enables extending the on-premise data center to connect seamlessly with Azure services ensuring data security and availability , The IOT devices installed at the sites will use MQTT to send data to local 
    on premise data center with is integrated with Azure cloud using VPN gateway to ensure data security and realibility .
 
+   ![image](https://github.com/mu2712/archkatas/assets/69727351/3146b48b-1730-4d68-8d2f-e613c80d22f3)
+
+
