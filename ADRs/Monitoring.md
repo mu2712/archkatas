@@ -36,7 +36,10 @@ Power BI is a Microsoft offering for creating various reports and sending alerts
 
 ## Decision
 
-We decided to choose Power BI as we have predominently decided to Azure and other Microsoft stack. Also, Power BI provides a very strong analytical abilities, Plus we do have to impact extra from a dev/adminstrator to take care of monitoring.
+We decided to choose Power BI as we have predominently decided to Azure and other Microsoft stack. Also, Power BI provides a very strong analytical abilities, Plus we do have to impart extra from a dev/adminstrator to take care of monitoring.
 
 ## Consequences
 The cost of the project increase as we decided to use a paid service.
+
+## Tradeoff
+We choose to save dev/sys admin time over cost.
