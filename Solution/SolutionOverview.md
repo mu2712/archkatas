@@ -8,6 +8,7 @@
 4. Cache data coming from extremal system like weather data and the ideal data based on fish species, this will enable us to make less api calls to external system and these data are assumed to change very infrequently.
 
 ## Overall Solution Summary
+**Problems**
 
 We have Farms and Enclousres situated at far-flung areas with below assumped obstacles:
   - Frequent network outages which can last multiple days.
@@ -18,25 +19,27 @@ We have Farms and Enclousres situated at far-flung areas with below assumped obs
     as units of measurement like temperature etc.
   - A lot of system rules are to be governed by the system admins to let them choose what actions that want on what conditions.
 
- After taking into consideration all the above points, we are planning to create a system comprising of on premises and cloud componenets.
+**Solution**
+
+ After taking into consideration all the above points, we are planning to create a system comprising of on premises and cloud components.
    - We will put a set of prem systems capable of capturing data from various IOT devices and External Systems (weather data).
    - The data will be sent to Cloud based system capable of running analytic on the data collected to give proper guidance to users about 
      best times to harvest.
    - The data stored at cloud based system will be replicated to on-prem set up (as and when these systems could connect, also          
      considering the defined time set).
-   - We assume the fish-ual recognition system is already in place, so we will use the confidence the AI model has in recgnitions and          store them and a image thumbnail (to allows users to manually verify)
-   - We can plan for customzing the AI recognition model ourselves as we gather more imformation and as our system matures.
-   - We will older archive data and delete much older data (The number of days will be set by Admin users). This will let us save a lot        of storing cost.
+   - We assume the fish-ual recognition system is already in place, so we will use the confidence the AI model has in recognitions and          store them along with an image thumbnail (to allows users to manually look at the images if they want)
+   - We can plan for customizing the AI recognition model ourselves as we gather more imformation and as our system matures. (Future 
+     Consideration)
+   - We will archive older data and possibly delete much older data (The number of days will be set by Admin users). This will let us          save a lot of cost associated with managing a large data set (of images etc).
      
-   Alerting and Monitoring:
+   **Alerting and Monitoring**
+   
    We would have our notication / alert service always up to allows us to send important notifications all the time. We would have 
    multiple alerts such as:    
    - "Approaching adverse situation" (possible due to multiple parasite located, the threshold defined by Admins).
    - Not receiving feeds from last <user defined> duration.
    - Any adverse weather forecast received.
    Besides this, we would have a lot of system admin monitoring in place and various analytics running on them to give proper feedback to    site admins about health of various services.
-     
-   
 
   
 
