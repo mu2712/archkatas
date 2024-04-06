@@ -18,6 +18,7 @@ Table of content:
 	- [Assumptions](https://github.com/mu2712/archkatas/blob/development/Solution/Assumptions.md)
   - [Solution Overview](https://github.com/mu2712/archkatas/blob/development/Solution/SolutionOverview.md)
   - [Tradeoffs](https://github.com/mu2712/archkatas/blob/development/Solution/Tradeoffs.md)
+  - [Risks](https://github.com/mu2712/archkatas/blob/development/Solution/Risks.md)
 - **ADRs**
 	- [Template](https://github.com/mu2712/archkatas/blob/development/ADRs/Template.md)
 	- [SystemApproach](https://github.com/mu2712/archkatas/blob/development/ADRs/SystemApproach.md) (Superseded)
