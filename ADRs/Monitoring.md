@@ -30,11 +30,13 @@ Grafana is an open source solution for running data analytics, pulling up metric
 
 Amazon CloudWatch is AWS alerting tool for sending notifications based on the severity levels of the inspected matrix. Approximate cost is $0.30 USD for first 10,000 metrics.
 
+#### Power BI
+
+Power BI is a Microsoft offering for creating various reports and sending alerts based on the severity levels of the inspected matrix. Approximate cost is $10 USD per user/month.
+
 ## Decision
 
-We decided to choose Prometheus + Grafana.
-It is mainly because of the cost involved and ability of Prometheus to collect rich metrics and provides a powerful querying language.
-Grafana on the other hand, transforms metrics into meaningful visualizations. Both are compatible with many, if not most, data source types.
+We decided to choose Power BI as we are predominently decided to Azure and other Microsoft stack. Also, Power BI provides a very strong analytical abilities, Plus we do have to impact extra from a dev/adminstrator to take care of monitoring.
 
 ## Consequences
-We would have to appoint some time of a developer / administrator to take care of the monitoring.
+The cost of the project increase as we decided to use a paid service.
