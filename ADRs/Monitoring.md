@@ -32,7 +32,7 @@ Amazon CloudWatch is AWS alerting tool for sending notifications based on the se
 
 ## Decision
 
-We decided to choose Grafana, because of it's robustness.
+We decided to choose Prometheus + Grafana.
 
 ## Consequences
 We would have to appoint 0.2-0.5 time of a developer / administrator to take care of the monitoring.
