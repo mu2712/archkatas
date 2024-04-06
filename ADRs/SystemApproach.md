@@ -8,7 +8,7 @@ System design
 
 ## Status
 
-Superceded
+Superseded
 
 ## Context
 
