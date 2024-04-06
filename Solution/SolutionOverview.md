@@ -49,7 +49,7 @@ Based on provided principles, and current [businesss goals](https://github.com/m
 
 The high level design is as follow:
 
-![image](https://github.com/mu2712/archkatas/assets/57832454/a5082b07-9294-4708-ba2a-489c821a5558)
+![image](https://github.com/mu2712/archkatas/assets/57832454/0cc2fa8b-718d-4f32-b9da-0ed9c69fe886)
 
 ## Description
 1.) **Farm Details Service**: This service will be responsible for the maintenance of all the data related to farms and it's enclosures. It will be using a RDBMS DB(SQL Lite). Since the data volumes is less, we do not need mucch scalability here.
