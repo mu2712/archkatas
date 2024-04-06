@@ -40,6 +40,6 @@ The rendering image service which captures and provide more useful data should a
 
 **Security** - The Fish Watch appliaction should follow specific standards and encryption methods since most of the data will be pulled from external sources so here after authenticating and authorizing the user then successfully access of application provided as required.
 Here will identify how well a system protects against unauthorized access and data breaches.
-- Applicability of data protection standards is low. GDPR or similar standards, as required locally should be applied for operator information, e.g. mail ids, if any
+- Applicability of data protection standards is low. GDPR or similar standards, as required locally should be applied for operator information, e.g. mail ids, etc if any
 - Outdated TLS versions and other protocols should not be supported 
 - Networks should be firewalled, including the farm controls (devices) network
