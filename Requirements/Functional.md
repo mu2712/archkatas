@@ -2,12 +2,15 @@
 The application "Fishy Watch" is built for Livestock Insights incorporated which is a company having headquater in Scotland, but operating globally.
 
     1.1 Purpose
-        The main purpose of "Fish watch" application is to provide users with real-time information about fish species,              fishing locations, and environmental conditions to promote sustainable fishing practices. It is able to collect              information about individual fish, water quality, and weather
+        The main purpose of "Fish watch" application is to provide fish farm operators with real-time information about health of the fish,  fish species,              and environmental conditions to promote sustainable fish farming. It is able to collect              information about individual fish, water quality, and weather
         information. Fish farmers can use this information to understand the health of their livestock, check
         for signs of parasites and disease, and work out the best time to harvest. 
 
    1.2 Scope
         The application will offer detailed species and farm information via dashboard. The dashboard data will be gathered          from various service like location-based services, Alerting services, Visuals monitoring services,Image Recognition          Service, Farm detail service, Weather Monitoring service and Water monitoring service.
+
+   1.2 Out of Scope
+        Analytics ?? 
 
 2. Overall Description
    
@@ -64,6 +67,7 @@ The application "Fishy Watch" is built for Livestock Insights incorporated which
     
         Official government databases for regulations
         Partnered databases for species information
+        Tide data files from vendors
     4.2 Data Update and Synchronization
         Regular updates to ensure accuracy of information.
 
