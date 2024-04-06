@@ -9,16 +9,13 @@ The application "Fishy Watch" is built for Livestock Insights incorporated which
    1.2 Scope
         The application will offer detailed species and farm information via dashboard. The dashboard data will be gathered          from various service like location-based services, Alerting services, Visuals monitoring services,Image Recognition          Service, Farm detail service, Weather Monitoring service and Water monitoring service.
 
-   1.2 Out of Scope
-        Analytics ?? 
-
 2. Overall Description
    
     2.1 User Needs are defined below:-
    
         a)Farmers needs to be able to see the collected information in customizable dashboard.
 
-        b)Farmers needs threshold values at which alerts can be triggered. This includes water PH level going out of bounds and advance warning of adverse weather events which are expected.
+        b)Farmers needs threshold values at which alerts can be triggered. This includes water PH level going out of bounds and advance warning of adverse weather events which are expected. Most of these data are configured by Admin Users at this point.
 
         c)Farmers should be able to predict good harvest conditions by using a model created with the help of track information about the fish harvested from each farm alongwith the raw data collected.
 
@@ -41,11 +38,12 @@ The application "Fishy Watch" is built for Livestock Insights incorporated which
         Functionality: Users can capture or upload images of fish to identify species using image recognition.
         User Interface: Camera integration; upload from gallery option.
 
-    3.2 Regulations and Compliance
+    3.2 Regulations and Compliance  (Future consideration)
 
         Functionality: Provides legal information related to fishing activities like size limits, season dates, and bag limits.
         Data Management: Regular updates from authoritative sources.
-    3.3 Location Services
+   
+    3.3 Location Services  (Future consideration)
 
         Functionality: Map integration showing fishing spots, restricted areas, and user location.
         User Interaction: Searchable map with filter options for types of fish, facilities, and accessibility.
@@ -61,22 +59,11 @@ The application "Fishy Watch" is built for Livestock Insights incorporated which
         Functionality: Customizable notifications for changes in environmental conditions, water PH levels and species health. 
         Settings: Users can set preferences for frequency and types of alerts.
 
-  4. Data Management
+  5. Data Management
      
     4.1 Data Sources
-    
-        Official government databases for regulations
-        Partnered databases for species information
+        Official government databases for regulations (Future consideration)
+        Partnered databases for species information  (Future consideration, currently we will rely on info by fish farmers)
         Tide data files from vendors
     4.2 Data Update and Synchronization
         Regular updates to ensure accuracy of information.
-
-  5. Appendix
-     
-    5.1 Glossary
-    
-        Definitions of technical terms used in the document.
-        
-    5.2 References
-    
-        Sources of information and data used for application development.
