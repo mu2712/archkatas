@@ -19,6 +19,6 @@ Table of content:
   - [Tradeoffs](https://github.com/mu2712/archkatas/blob/development/Solution/Tradeoffs.md)
 - **ADRs**
 	- [Template](https://github.com/mu2712/archkatas/blob/development/ADRs/Template.md)
-	- [SystemApproach](https://github.com/mu2712/archkatas/blob/development/ADRs/SystemApproach.md) (Superceeded)
+	- [SystemApproach](https://github.com/mu2712/archkatas/blob/development/ADRs/SystemApproach.md) (Superseded)
 	- [SystemApproach_V2](https://github.com/mu2712/archkatas/blob/development/ADRs/SystemApproach_V2.md) (Accepted)
 	- [Monitoring](https://github.com/mu2712/archkatas/blob/development/ADRs/Monitoring.md) (Proposed)
