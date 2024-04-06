@@ -1,11 +1,11 @@
 # Architectural Katas With Sam Newman - Team Avengers
 
 ### Members 
-- Sudesh Sawant (Leader)
-- Mayank Upadhyay
+- Mayank Upadhyay (Leader)
 - Abhinay Jain
 - Suyash Mulye
 - Amit Tiwari
+- Sudesh Sawant
 
 # Solution Structure
 
