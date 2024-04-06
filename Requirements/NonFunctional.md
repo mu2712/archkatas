@@ -1,12 +1,12 @@
 Performance - The Fish Watch application landing page supporting large set of users per hour must provide 6 seconds or less response time in a browser, including rendering text and images, over an network connection.
 Identify species using image recognition where user can capture or upload images needs to be integrated and efficiently repsonse needs to be provided via user search on application
-Product search results should be displayed within 3 seconds for 90% of the searches under normal conditions.
-The system must be capable of ingesting data streams at a minimum rate of 1 million records per minute from various sources without loss of data.
-For real-time dashboard updates, the system should refresh and display updated analytics within 10 seconds of receiving new data.
+Product search results should be displayed within few seconds for best results of the searches under normal conditions.
+The system must be capable of ingesting data streams at a minimum rate to pull maximum records per minute from various sources without loss of data.
+For real-time dashboard updates, the system should refresh and display updated analytics within few seconds of receiving new data.
 
-Scalability - The website must be scalable enough to support minimum 10,000 visits at the same time while maintaining optimal performance.
+Scalability - The website must be scalable enough to support no of visits at the same time while maintaining optimal performance.
 The Fish Watch system should be capable of scaling data processing and storage capabilities as the company grows, potentially handling a tenfold increase in transaction volumes over five years.
-The real-time locating system should be able to scale from managing 10,000 to 50,000 IoT devices without loss of data fidelity or monitoring capabilities.
+The real-time locating system should be able to scale from managing minimum no of IoT devices without loss of data fidelity or monitoring capabilities.
 The Fish Watch website should be able to scale to accommodate increase in user traffic during the season time when most of the user needs data without any degradation in response time or service availability.
 
 Portability - The Fish Watch app should be operable and maintain a consistent user experience across various mobile devices, including different screen sizes and resolutions.
