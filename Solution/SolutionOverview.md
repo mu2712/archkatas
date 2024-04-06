@@ -78,4 +78,7 @@ The refresh of cache will be dependent on the timer set at Configuration Service
 
    ![image](https://github.com/mu2712/archkatas/assets/69727351/3146b48b-1730-4d68-8d2f-e613c80d22f3)
 
+## Analytics Architecture
+The analytics architecture considers multiple data sources, including streaming IoT devices, Camaera feed and external data sets.
+![image](https://github.com/mu2712/archkatas/assets/16031924/0544c397-9864-4ce3-a81e-bc37446712ed)
 
