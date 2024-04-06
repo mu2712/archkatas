@@ -4,11 +4,11 @@ Date: 2024-04-04
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
-This is a fast growing system with various services interacting with each oether, it makes scaling essential. Also, it allows buying cheaper instances for services without overall degradation.
-Proper and trustworthy monitoring is the basis for making any decision about infrastructure changes (i.e. scaling and extracting services), proper monitoring should support business decisions and should act architecture fitness functions.
+Fish watch is a fast growing system with various services interacting with each other, it makes scaling essential. 
+Proper and trustworthy monitoring is the basis for making any decision about infrastructure changes (i.e. scaling, extensibility etc), proper monitoring should support business decisions.
 We'd like to use a system that helps us get the full picture of correlated business events, connected services and amount of consumed resources.
 
 ## Alternatives
@@ -33,6 +33,8 @@ Amazon CloudWatch is AWS alerting tool for sending notifications based on the se
 ## Decision
 
 We decided to choose Prometheus + Grafana.
+It is mainly because of the cost involved and ability of Prometheus to collect rich metrics and provides a powerful querying language.
+Grafana on the other hand, transforms metrics into meaningful visualizations. Both are compatible with many, if not most, data source types.
 
 ## Consequences
-We would have to appoint 0.2-0.5 time of a developer / administrator to take care of the monitoring.
+We would have to appoint some time of a developer / administrator to take care of the monitoring.
