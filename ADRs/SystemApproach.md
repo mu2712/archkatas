@@ -25,5 +25,3 @@ We decided to go for an event driven microservice architecture.
 **Negative:** The ability of service interacting with each other is limited by various IOT been able to send feed to us in regular time.
 
 **Risks:** Loss of network connectivity from farms to our cloud could mean users not able to reach to our websites and important notifications been missed out.
-
-**Tradeoffs:** If any
