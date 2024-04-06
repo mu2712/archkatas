@@ -13,6 +13,7 @@ Table of content:
 - **Requirements**
 	- [Functional](https://github.com/mu2712/archkatas/blob/development/Requirements/Functional.md)
 	- [Non Functional](https://github.com/mu2712/archkatas/blob/development/Requirements/NonFunctional.md)
+   	- [Stakeholders](https://github.com/mu2712/archkatas/blob/development/Requirements/StakeHolders.md)
 - **Solution**
 	- [Assumptions](https://github.com/mu2712/archkatas/blob/development/Solution/Assumptions.md)
   - [Solution Overview](https://github.com/mu2712/archkatas/blob/development/Solution/SolutionOverview.md)
