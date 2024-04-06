@@ -10,7 +10,6 @@
 1. Detailed information about fish behaviour and water quality will become richer over time as we are able to deploy more powerful devices.
 2. The minimum PH value used will be of acceptable international standards.
 3. The species health markers will be of acceptable international standards.
-4. GPS functionality for location-based services.
 
 
 
